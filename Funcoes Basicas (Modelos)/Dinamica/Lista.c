@@ -1,3 +1,4 @@
+// Lista Simplesmente Encadeada
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -6,19 +7,11 @@ typedef struct sNode {
     struct sNode *next;
 } Node;
 
-Node *getNode(){
-    return (Node *)malloc(sizeof(Node));
-}
+Node *getNode(){ return (Node *)malloc(sizeof(Node)); }
 
-void freeNode(Node *head){
-    free(head);
-}
+void freeNode(Node *head){ free(head); }
 
-int isEmpty(Node *head){
-    if(head == NULL)
-        return 1;
-    return 0;
-}
+int isEmpty(Node *head){ return head == NULL; }
 
 int getData(){
     int data;
