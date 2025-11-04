@@ -2,7 +2,7 @@
 
 Repositório dedicado aos materiais, exercícios e implementações desenvolvidos durante a disciplina de Estrutura de Dados I do curso de Bacharelado em Ciência da Computação.
 
-## 📚 Sobre a Disciplina
+## Sobre a Disciplina
 
 Este repositório contém implementações em linguagem C de diversas estruturas de dados fundamentais, abordando tanto implementações estáticas (utilizando vetores) quanto dinâmicas (utilizando alocação dinâmica de memória e ponteiros).
 
@@ -128,7 +128,7 @@ O diretório `Funcoes Basicas (Modelos)` contém implementações template organ
   - Recursão
   - Manipulação de strings
 
-## 🚀 Como Compilar e Executar
+## Como Compilar e Executar
 
 ### Requisitos
 - GCC (GNU Compiler Collection)
@@ -150,7 +150,7 @@ gcc "01 - Lista Linear Estatica/Exercicios/Ex1.c" -o lista_ex1
 ./lista_ex1
 ```
 
-## 📄 Licença
+## Licença
 
 Este é um repositório educacional. O código está disponível para fins de estudo e referência.
 
